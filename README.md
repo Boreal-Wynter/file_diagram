@@ -5,9 +5,7 @@ for readme:
 </div>
 ```
 
-to run: 
+to run (dockerfile): 
 ```
-#!/bin/bash
-
-python create_file_diagram.py
+CMD ["python", "create_file_diagram.py"]
 ```
