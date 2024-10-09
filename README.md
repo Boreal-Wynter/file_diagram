@@ -6,3 +6,8 @@ for readme:
 ```
 
 to run: 
+```
+#!/bin/bash
+
+python create_file_diagram.py
+```
