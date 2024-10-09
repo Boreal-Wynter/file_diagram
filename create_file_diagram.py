@@ -57,7 +57,7 @@ def main():
     # Get file tree text
     png = pygments.highlight(Path(file_name).read_text(), lexer, ImageFormatter(line_numbers=False))
     # Write File tree to a png
-    Path('Default/file_tree_diagram.png').write_bytes(png)
+    Path('file_tree_diagram.png').write_bytes(png)
     # Remove text file
     is_exist(file_name)
 
